@@ -1,0 +1,16 @@
+<suite name="grouping">
+<test name="grouping">
+	<classes>
+		<class name="Day_2_TestNG.GroupingTest"/>
+		<class name="Day_2_TestNG.GroupingTest2"/>
+<groups>
+	<run>
+		<include name="regression"/>
+		<include name="sanity"/>
+		<exclude name="regression"></exclude>
+	</run>
+</groups>
+
+</classes>
+</test>
+</suite>
