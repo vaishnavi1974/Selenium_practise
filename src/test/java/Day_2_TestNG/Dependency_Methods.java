@@ -8,7 +8,7 @@ public class Dependency_Methods {
 	public void openapp() {
 		  Assert.assertTrue(true);
 	  }
-	@Test(priority=2, dependsOnMethods= {"openapp"})
+	@Test(priority=2, dependsOnMethods= {"openapp","login"})
 	public void login()
 	{
 		Assert.assertTrue(true);
